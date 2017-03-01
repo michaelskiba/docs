@@ -1,0 +1,771 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Documentation</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #f8f8f2;
+  background-color: #272822;
+}
+.highlight .err {
+  color: #272822;
+  background-color: #f92672;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #f4bf75;
+}
+.highlight .nt {
+  color: #f4bf75;
+}
+.highlight .o, .highlight .ow {
+  color: #f8f8f2;
+}
+.highlight .p, .highlight .pi {
+  color: #f8f8f2;
+}
+.highlight .gi {
+  color: #a6e22e;
+}
+.highlight .gd {
+  color: #f92672;
+}
+.highlight .gh {
+  color: #66d9ef;
+  background-color: #272822;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #ae81ff;
+}
+.highlight .kc {
+  color: #fd971f;
+}
+.highlight .kt {
+  color: #fd971f;
+}
+.highlight .kd {
+  color: #fd971f;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #a6e22e;
+}
+.highlight .sr {
+  color: #a1efe4;
+}
+.highlight .si {
+  color: #cc6633;
+}
+.highlight .se {
+  color: #cc6633;
+}
+.highlight .nn {
+  color: #f4bf75;
+}
+.highlight .nc {
+  color: #f4bf75;
+}
+.highlight .no {
+  color: #f4bf75;
+}
+.highlight .na {
+  color: #66d9ef;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #a6e22e;
+}
+.highlight .ss {
+  color: #a6e22e;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all_nosearch.js"></script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+      <div style="padding:20px 0px 20px 40px;"><img src="images/logo.png" alt="Logo" /></div>
+      <div id="toc">
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id="introduction">Introduction</h1>
+
+<h1 id="devices">Devices</h1>
+
+<h2 id="door-window-sensor">Door/Window Sensor</h2>
+
+<p><img src="images/dw-3-4ths.png" alt="Dome Door/Window Sensor" /></p>
+
+<h3 id="description-amp-features">Description &amp; Features</h3>
+
+<p>The Dome Door/Window Sensor is a battery powered Z-Wave Plus magnetic reed switch that can monitor the status of doors, windows, and anything else that opens and closes.  The Door/Window Sensor consists of two parts - the “sensor,” and the “magnet.”  The sensor has a “reed switch” inside, which is sensitive to the magnet’s presense when aligned properly and within the defined distance.  When the sensor and magnet are brought together or pulled apart, the sensor will report its open/close status to its Z-Wave controller.  </p>
+
+<blockquote>
+<p><img src="images/dw-exploded-view.svg" class="line-art" alt="Door/Window Sensor Exploded View">
+<span class="caption"> Figure 1 - Exploded View</span></p>
+</blockquote>
+
+<p><strong>Key Features</strong></p>
+
+<ul>
+<li>Z-Wave Plus Certified </li>
+<li>Up to 150’ range</li>
+<li>Three-Year Battery Life </li>
+<li>Low Battery Indication </li>
+<li>0.5” Max distance between sensor &amp; magnet </li>
+<li>Monitor doors, windows, medicine cabinets, drawers, garage doors, and many other openings </li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<p><strong>Technical Specifications</strong></p>
+
+<table><thead>
+<tr>
+<th style="text-align: right">Spec</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: right">Radio protocol</td>
+<td>Z-Wave(500 series)</td>
+</tr>
+<tr>
+<td style="text-align: right">Power supply</td>
+<td>Single CR14250 (1/2AA) 3.6V battery</td>
+</tr>
+<tr>
+<td style="text-align: right">Standby current</td>
+<td>2.5uA</td>
+</tr>
+<tr>
+<td style="text-align: right">Working current</td>
+<td>35mA</td>
+</tr>
+<tr>
+<td style="text-align: right">Operating temperature</td>
+<td>32 - 104 °F (0 - 40 °C)</td>
+</tr>
+<tr>
+<td style="text-align: right">Radio frequency</td>
+<td>908.4 MHz US</td>
+</tr>
+<tr>
+<td style="text-align: right">Range</td>
+<td>Up to 150’ depending on environment</td>
+</tr>
+<tr>
+<td style="text-align: right">Dimensions (L x W x H)</td>
+<td>Sensor: 2.75” x 0.8” x 0.8” (70 x 20 x 20 mm) <br> Magnet: 1.3” x 0.5” x 0.5” (40 x 11 x 11 mm)</td>
+</tr>
+<tr>
+<td style="text-align: right">Package Contents</td>
+<td>User Manual, Sensor, Magnet, Battery, 4x Screws, 4x Wall Anchors</td>
+</tr>
+</tbody></table>
+
+<h3 id="inclusion-amp-exclusion">Inclusion &amp; Exclusion</h3>
+
+<p><strong>Inclusion</strong></p>
+
+<ol>
+<li>For proper inclusion, bring the Door/Window Sensor to the final location where it will be used.*</li>
+<li>Remove the SENSOR COVER.</li>
+<li>Remove the BATTERY TAB.</li>
+<li>Press the BUTTON quickly 3 times in a row.<br></li>
+</ol>
+
+<p>A red LED will flash five times indicating inclusion.</p>
+
+<aside class="notice">
+*For non Z-Wave Plus networks, please consult the owner’s manual for your primary controller to determine the best method and location for adding the Door/Window Sensor to your Z-Wave network.
+</aside>
+
+<p><strong>Exclusion</strong></p>
+
+<p>Follow the instructions for your Z-Wave Certified Conto enter exclusion mode.  When prompted by the controller:</p>
+
+<ol>
+<li>Remove the SENSOR COVER.</li>
+<li>Press the BUTTON button quickly 3 times in a row.</li>
+</ol>
+
+<p>A red LED will flash five times indicating exclusion/disconnection.</p>
+
+<h3 id="factory-reset-amp-misc-functions">Factory Reset &amp; Misc. Functions</h3>
+
+<p><strong>Resetting the Door/Window Sensor</strong></p>
+
+<p>If needed, the Door/Window Sensor can be reset locally by following these steps.  </p>
+
+<aside class="warning">
+Only do this when your Z-Wave controller is disconnected or otherwise unreachable.  Beware that resetting your device will disconnect it from the system
+</aside>
+
+<ol>
+<li>Remove the SENSOR COVER and confirm that your Door/Window Sensor is powered up.</li>
+<li>Press and hold the BUTTON for at least 10 seconds then release.  A flashing light indicates a successful factory reset. </li>
+</ol>
+
+<p>The Door/Window Sensor’s memory will be erased to factory settings. </p>
+
+<p><strong>Waking Up the Door/Window Sensor</strong></p>
+
+<p>Because the Door/Window Sensor is a battery powered device, it wakes up on regular intervals to give battery and other status updates to the controller, as well as to accept configuration settings from the controller.  This helps to extend the battery life.  The device can be forced to wake up to submit these reports or accept new settings immediately by simply pressing and holding the BUTTON for half a second.  The LED INDICATOR will flash once indicating successful wake up.</p>
+
+<h3 id="physical-installation">Physical Installation</h3>
+
+<p>The Door/Window Sensor can be secured with the pre-applied double stick tape or the provided hardware.  The device should already be included in your Z-Wave system before continuing further.</p>
+
+<blockquote>
+<p><img src="images/dw-installation.png" alt="Installing the Door/Window Sensor" /> 
+<span class="caption"> Figures 3 &amp; 4 - Showing the Door/Window Sensor Installation Location and Sensor Alignment</span></p>
+</blockquote>
+
+<p><strong>Pre-Installation Checklist</strong></p>
+
+<ul>
+<li>The MAGNET and SENSOR should be less than 1/2” apart when closed (Figure 4.)</li>
+<li>Hold the magnet and sensor in place by hand where you wish to install them, move them in and out of the closed position, and make sure the INDICATOR LED blinks in response.  This will confirm that the door and frame are spaced correctly to accommodate the sensor.<br></li>
+<li>Make sure the SENSOR COVER RELEASE BUTTON will be accessible in the final position.</li>
+<li>Finally, confirm that you are still within range of your Z-Wave controller.</li>
+</ul>
+
+<p><strong>Installation Using Double-Stick Tape</strong></p>
+
+<ol>
+<li>Wipe the door and doorframe clean of dust and anything else that will interfere with the tape’s stickiness.</li>
+<li>Peel the double-stick tape and adhere the SENSOR to the door surface.</li>
+<li>Repeat the process for the MAGNET, making sure the MAGNET and SENSOR are no more than 1/2” apart when closed.  The lines on the sides of the MAGNET and SENSOR should be in line.</li>
+<li>Open and close the door to make sure the sensor works as expected (the INDICATOR LED blinks) and that the signal reaches your Z-Wave controller.</li>
+</ol>
+
+<p><strong>Installation Using Screws</strong></p>
+
+<blockquote>
+<p><img src="images/dw-w-screws.svg" class="line-art" alt="Installing the Door/Window Sensor with Screws">
+<span class="caption"> Figure 5 - Installing the Door/Window Sensor with Screws.</span></p>
+</blockquote>
+
+<ol>
+<li>Remove the SENSOR COVER and BATTERY from the SENSOR BASE and the MAGNET COVER from the MAGNET BASE.</li>
+<li>Hold the SENSOR BASE in place and drive the included screws through the screw holes into the door.</li>
+<li>Repeat the process for the MAGNET, making sure the MAGNET and SENSOR are no more than 1/2” apart when the door is closed.  The lines on the sides of the MAGNET and SENSOR should be in line.</li>
+<li>Replace the BATTERY, SENSOR COVER, and MAGNET COVER.</li>
+<li>Open and close the door to make sure the sensor works as expected (the INDICATOR LED blinks) and that the signal reaches your Z-Wave controller.</li>
+</ol>
+
+<h3 id="led-behavior">LED Behavior</h3>
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Color</th>
+    <th class="tg-yw4l">Behavior</th>
+    <th class="tg-yw4l">This happens when&hellip;</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="6">Red</td>
+    <td class="tg-yw4l">Blink 5 times in 5 seconds (slow)</td>
+    <td class="tg-yw4l">…the Door/Window Sensor was just powered on, but is not yet included in a system.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blink 5 times in 2.5 seconds (medium)</td>
+    <td class="tg-yw4l">…the BUTTON is pressed 3 times quickly (regardless of inclusion status.)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blink 5 times in 1.5 seconds (fast)</td>
+    <td class="tg-yw4l">…the Door/Window Sensor is powered on, and already included in a system.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Stay on for 2+ seconds straight</td>
+    <td class="tg-yw4l">…the BUTTON is pressed and held for 10+ seconds, resetting Door/Window Sensor to factory settings.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks once for 1 second</td>
+    <td class="tg-yw4l">…the SENSOR detects the MAGNET getting close or moving away (when the door opens or closes.)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks once</td>
+    <td class="tg-yw4l">…the BUTTON is pushed once.</td>
+  </tr>
+</table>
+
+<h3 id="button-behavior">Button Behavior</h3>
+
+<table class="tg">
+  <tr>
+    <th  class="tg-yw4l">Action</th>
+    <th  class="tg-yw4l">Condition</th>
+    <th  class="tg-yw4l">Result</th>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press and hold BUTTON for 2 seconds</td>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends a wake up notification to its controller, awaits further instructions, and blinks the LED Indicator once</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l" rowspan="3">Push BUTTON 3 Times</td>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends node info to Group 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included, and Controller is in Exclusion Mode</td>
+    <td  class="tg-yw4l">Device is excluded from the system and removes the Home ID from its memory</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Door/Window Sensor Not Yet Included in System, and Controller is in Inclusion Mode</td>
+    <td  class="tg-yw4l">Device enters inclusion mode and includes into whichever network is also in inclusion mode</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press and hold BUTTON for 10+ seconds</td>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device will be reset to factory settings, and a DEVICE_RESET_LOCALLY command will be sent to Node 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press and Hold for 10+ seconds</td>
+    <td  class="tg-yw4l">Any condition (as long as the device has power)</td>
+    <td  class="tg-yw4l">The device’s memory will erase to factory default settings and any associations, configuration parameters, and other locally saved data will be lost</td>
+  </tr>
+</table>
+
+<h3 id="compatible-command-classes">Compatible Command Classes</h3>
+
+<table class="tg"> 
+  <tr>
+    <th class="tg-yw42">Command Class</th>
+    <th class="tg-yw43">Notes</th>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Device Reset Locally V1 (5A)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Powerlevel V1 (73)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Battery V1(80)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Association Group Information V1 (59)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Z-Wave Plus Info V2 (5E)</td>
+    <td class="tg-yw43">
+
+      <center><strong>Returned Value: 01 06 00 0C 06 0C 06</strong></center>
+<br>
+    <table>
+      <tr>
+        <td  class="tg-yw42">Z-Wave Plus Version</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Role Type</td>
+        <td>06 <span class="subnote">(Slave Sleeping Reporting)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Node Type</td>
+        <td>00 <span class="subnote">(Z-Wave Plus Node)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Installer Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">User Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+    </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Version V2 (86)</td>
+    <td class="tg-yw43">
+
+      <center><strong>Returned Value: 06 04 05 03 3D 41 00</strong></center>
+<br>
+    <table>
+      <tr>
+        <td  class="tg-yw42">Z-Wave Plus Version</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Role Type</td>
+        <td>06 <span class="subnote">(Slave Sleeping Reporting)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Node Type</td>
+        <td>00 <span class="subnote">(Z-Wave Plus Node)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Installer Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">User Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+    </table>
+
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Manufacturer Specific V2 (72)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Binary Sensor (30)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Association V2 (85)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Wake Up V2 (84)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Notification V4 (71)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Configuration V1(70)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  
+</table>
+
+<h3 id="configuration-command-class-parameters">“Configuration” Command Class Parameters</h3>
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Param #</th>
+    <th class="tg-yw4l">Size</th>
+    <th class="tg-yw4l">Name</th>
+    <th class="tg-yw4l">Available Values</th>
+    <th class="tg-yw4l">Default Value</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">01</td>
+    <td class="tg-yw4l" colspan="4">This parameter sets the delay time from when the Door/Window Sensor sends the BASIC_SET command to Association Group 2 and when the BASIC_SET(0) is sent.,It accepts a value up to 65,535, in seconds.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">02</td>
+    <td class="tg-yw4l">BASIC_SET Off Delay</td>
+    <td class="tg-yw4l">00 01 ~ FF FF <br> <span class="subnote">(1 ~ 65,535 in Seconds)</span></td>
+    <td class="tg-yw4l">1E <br> <span class="subnote"> (30 sec) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">02</td>
+    <td class="tg-yw4l" colspan="4">This parameter sets the value sent by the BASIC_SET command to Association Group 2 (for more information, see “Assocation Groups”.)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">BASIC_SET Level</td>
+    <td class="tg-yw4l">00 <span class="subnote">(0/Turn Off Device)</span> <br> 01 ~ 63 <span class="subnote">(1 ~ 99)</span> <br> FF <span class="subnote">(-1/Turn On Device)</span>  </td>
+    <td class="tg-yw4l">FF <br> <span class="subnote"> (-1/Turn On Device) </span></td>
+  </tr>
+
+</table>
+
+<h2 id="siren">Siren</h2>
+
+<h2 id="motion-detector">Motion Detector</h2>
+
+<h2 id="leak-sensor">Leak Sensor</h2>
+
+<h2 id="on-off-plug">On/Off Plug</h2>
+
+<h2 id="mouser">Mouser</h2>
+
+<h2 id="water-main-shut-off">Water Main Shut-Off</h2>
+
+<h1 id="hubs">Hubs</h1>
+
+<h2 id="smartthings">SmartThings</h2>
+
+<h3 id="door-window-sensor">Door/Window Sensor</h3>
+
+<h3 id="siren">Siren</h3>
+
+<h3 id="motion-detector">Motion Detector</h3>
+
+<h3 id="leak-sensor">Leak Sensor</h3>
+
+<h3 id="on-off-plug">On/Off Plug</h3>
+
+<h3 id="mouser">Mouser</h3>
+
+<h3 id="water-main-shut-off">Water Main Shut-Off</h3>
+
+<h2 id="wink">Wink</h2>
+
+<h3 id="door-window-sensor">Door/Window Sensor</h3>
+
+<h3 id="siren">Siren</h3>
+
+<h3 id="motion-detector">Motion Detector</h3>
+
+<h3 id="leak-sensor">Leak Sensor</h3>
+
+<h3 id="on-off-plug">On/Off Plug</h3>
+
+<h3 id="mouser">Mouser</h3>
+
+<h3 id="water-main-shut-off">Water Main Shut-Off</h3>
+
+<h2 id="vera">Vera</h2>
+
+<h3 id="door-window-sensor">Door/Window Sensor</h3>
+
+<h3 id="siren">Siren</h3>
+
+<h3 id="motion-detector">Motion Detector</h3>
+
+<h3 id="leak-sensor">Leak Sensor</h3>
+
+<h3 id="on-off-plug">On/Off Plug</h3>
+
+<h3 id="mouser">Mouser</h3>
+
+<h3 id="water-main-shut-off">Water Main Shut-Off</h3>
+
+<h2 id="logitech-harmony">Logitech Harmony</h2>
+
+<h3 id="door-window-sensor">Door/Window Sensor</h3>
+
+<h3 id="siren">Siren</h3>
+
+<h3 id="motion-detector">Motion Detector</h3>
+
+<h3 id="leak-sensor">Leak Sensor</h3>
+
+<h3 id="on-off-plug">On/Off Plug</h3>
+
+<h3 id="mouser">Mouser</h3>
+
+<h3 id="water-main-shut-off">Water Main Shut-Off</h3>
+
+<h1 id="automations">Automations</h1>
+
+<h1 id="faq-39-s">FAQ&rsquo;s</h1>
+
+<blockquote>
+<p>Make sure you remind me of how awesome I am later.</p>
+</blockquote>
+
+<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
+
+<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
+
+<p><code class="prettyprint">Authorization: meowmeowmeow</code></p>
+
+<aside class="notice">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</aside>
+
+<h1 id="mike-is-asian">Mike is Asian</h1>
+
+<p>Mike, this entire document is generated from one markdown file. It&rsquo;s the coolest thing I&rsquo;ve ever seen. It&rsquo;s also a Ruby project, so it&rsquo;s open source - it can be customized many different ways. </p>
+
+<h1 id="dome-special-instructions">Dome Special Instructions</h1>
+
+<blockquote>
+<p>To make this work, do this:</p>
+</blockquote>
+<pre class="highlight ruby"><code><span class="k">if</span> <span class="n">there</span> <span class="n">is</span> <span class="n">a</span> <span class="n">video</span><span class="p">,</span> <span class="n">image</span> <span class="n">or</span> <span class="n">other</span>
+</code></pre>
+<blockquote>
+<p>Make sure you remind me of how awesome I am later.</p>
+</blockquote>
+
+<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
+
+<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
+
+<p><code class="prettyprint">Authorization: meowmeowmeow</code></p>
+
+<aside class="notice">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</aside>
+
+<table><thead>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+
+<h1 id="kittens">Kittens</h1>
+
+<h2 id="get-all-kittens">Get All Kittens</h2>
+<pre class="highlight ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+
+<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
+<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
+</code></pre><pre class="highlight python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+
+<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
+<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+</code></pre><pre class="highlight shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
+  -H <span class="s2">"Authorization: meowmeowmeow"</span>
+</code></pre><pre class="highlight javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
+
+<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
+<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves all kittens.</p>
+
+<h3 id="http-request">HTTP Request</h3>
+
+<p><code class="prettyprint">GET http://example.com/api/kittens</code></p>
+
+<h3 id="query-parameters">Query Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>include_cats</td>
+<td>false</td>
+<td>If set to true, the result will also include cats.</td>
+</tr>
+<tr>
+<td>available</td>
+<td>true</td>
+<td>If set to false, the result will include kittens that have already been adopted.</td>
+</tr>
+</tbody></table>
+
+<aside class="success">
+Remember — a happy kitten is an authenticated kitten!
+</aside>
+
+<h2 id="get-a-specific-kitten">Get a Specific Kitten</h2>
+<pre class="highlight ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+
+<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
+<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</code></pre><pre class="highlight python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+
+<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
+<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</code></pre><pre class="highlight shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
+  -H <span class="s2">"Authorization: meowmeowmeow"</span>
+</code></pre><pre class="highlight javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
+
+<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
+<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves a specific kitten.</p>
+
+<aside class="warning">Inside HTML code blocks like this one, you can&rsquo;t use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
+
+<h3 id="http-request">HTTP Request</h3>
+
+<p><code class="prettyprint">GET http://example.com/kittens/&lt;ID&gt;</code></p>
+
+<h3 id="url-parameters">URL Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>The ID of the kitten to retrieve</td>
+</tr>
+</tbody></table>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
