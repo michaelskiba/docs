@@ -1011,7 +1011,7 @@ Package Contents   |   User Manual, Sensor, Battery, 2x Screws, 2x Wall Anchors,
 The LED Indicator will flash five times indicating inclusion.
 
 <aside class="notice">
-*For non Z-Wave Plus networks, please consult the owner’s manual for your primary controller to determine the best method and location for adding the Door/Window Sensor to your Z-Wave network.
+*For non Z-Wave Plus networks, please consult the owner’s manual for your primary controller to determine the best method and location for adding the Motion Detector to your Z-Wave network.
 </aside>
 
 **Exclusion**
@@ -1525,6 +1525,199 @@ You can mount the Motion Detector on any wall with a central line-of-sight persp
 
 
 ## Leak Sensor
+
+![Dome Leak Sensor](/images/leak-front.png)
+
+### Description & Features
+The Dome Leak Sensor is a battery powered Z-Wave Plus device that can detect wetness and send a notification when it does so.  The Leak Sensor consists of two parts—the “SENSOR ASSEMBLY,” and the optional “REMOTE SENSOR PROBE.”  They both detect water similarly, using three visible “LEAD.”  The moment water touches any of the LEAD, the device will beep and send a notification with its moisture status to its Z-Wave controller.  The REMOTE SENSOR PROBE is used to monitor confined or otherwise difficult to reach places.
+
+
+**Key Features**
+
+* Z-Wave Plus Certified 
+* Beeps and sends Z-Wave notification when water is detected
+* Thin profile—can fit under appliances
+* Remote Sensor Probe with 4’ extension for hard-to-reach areas
+* Up to 150’ range
+* Three-Year Battery Life 
+* Low Battery Indication 
+* Good to place near washing machines, dishwashers, sinks, toilets, or your indoor garden to alert you of any leaky accidents!
+
+
+### Specifications
+**Technical Specifications**
+
+Spec | Value
+----:|----
+Radio protocol  | Z-Wave(500 series)
+Power supply  | Single CR2 3.0V battery  
+Working current | 35mA 
+Power Consumption | 0.13W
+Radio frequency | 908.4 MHz US
+Range | Up to 150’ depending on environment
+Dimensions (L x W x H)  | Sensor: Ø2.63” x 1”
+Package Contents   |   User Manual, Sensor, Sensor Cradle, Remote Sensor Prove, Battery, 1x Screws, 1x Wall Anchors
+
+### Inclusion & Exclusion
+
+> <img src="/images/leak-exploded-view.svg" class="line-art" alt="Leak Sensor Exploded View">
+> <span class="caption"> Figure 1 - Exploded View</span>
+> <img src="/images/leak-side-by-side.svg" class="line-art" alt="Parts of the Leak Sensor">
+> <span class="caption"> Figure 2 - Parts of the A. Main Body Base, B. Main Body Cover, and C. Main Body Cradle</span>
+
+**Inclusion**
+
+1. For proper inclusion, bring the Leak Sensor to the final location where it will be used.*
+2. Remove the MAIN BODY COVER by twisting it counterclockwise.
+3. Remove the BATTERY TAB.
+4. Press the BUTTON quickly 3 times in a row.  
+
+The LED Indicator will flash five times indicating inclusion.
+
+<aside class="notice">
+*For non Z-Wave Plus networks, please consult the owner’s manual for your primary controller to determine the best method and location for adding the Leak Sensor to your Z-Wave network.
+</aside>
+
+**Exclusion**
+
+Follow the instructions for your Z-Wave Certified Conto enter exclusion mode.  When prompted by the controller:
+
+1. Remove the MAIN BODY COVER.
+2. Press the BUTTON button quickly 3 times in a row.
+
+The LED Indicator will flash five times indicating exclusion/disconnection.
+
+### Factory Reset & Misc. Functions
+
+**Resetting the Motion Detector**
+
+If needed, the Leak Sensor can be reset locally by following these steps.  
+
+<aside class="warning">
+Only do this when your Z-Wave controller is disconnected or otherwise unreachable.  Beware that resetting your device will disconnect it from the system
+</aside>
+
+1. Remove the MAIN BODY COVER and confirm that your Leak Sensor is powered up.
+2. Press and hold the BUTTON for at least 10 seconds then release.  A flashing light indicates a successful factory reset. 
+
+The Leak Sensor's memory will be erased to factory settings. 
+
+**Waking Up the Leak Sensor**
+
+Because the Leak Sensor is a battery powered device, it wakes up on regular intervals to give battery and other status updates to the controller, as well as to accept configuration settings from the controller.  This helps to extend the battery life.  The device can be forced to wake up to submit these reports or accept new settings immediately by simply pressing and holding the BUTTON for half a second.  The LED INDICATOR will flash once indicating successful wake up.
+
+###Physical Installation###
+
+The device should already be included in your Z-Wave system before continuing further.  Study the Pre-Installation Checklist below for a broad overview of installation options and other notes to bear in mind.
+
+**Pre-Installation Checklist**
+
+* The MAIN BODY CRADLE and REMOTE SENSOR PROBE are optional, to help monitor hard-to-reach areas—study Figures 3 and 4 to understand when, where, and why to use the REMOTE SENSOR PROBE
+* The Leak Sensor detects moisture the moment water contacts the METAL FEET on the REMOTE SENSOR PROBE or the MAIN BODY BASE
+* To monitor a pipe or appliance for leaks, place the Leak Sensor nearby on a flat surface where water is likely to accumulate during a leak
+* If there is not enough space for the SENSOR ASSEMBLY to fit, use the optional REMOTE SENSOR PROBE
+* When using the REMOTE SENSOR PROBE, the SENSOR ASSEMBLY will rest in the MAIN BODY CRADLE
+* All three METAL FEET should contact the surface
+* The REMOTE SENSOR PROBE can also hang mid-air to monitor rising water levels (for example in a sump pump pit)
+
+> <img src="/images/dw-w-screws.svg" class="line-art" alt="Installing the Leak Sensor Near a Toilet or Appliance">
+> <span class="caption"> Figures 3 & 4 - Installing the Leak Sensor Near a Toilet or Appliance.</span>
+
+**Installation—Without the REMOTE SENSOR PROBE**
+
+1. Make sure the Leak Sensor is already included in your Z-Wave System and bring it to your desired installation location.  
+2. Confirm that your device can communicate with your Z-Wave Controller from the final installed location before proceeding.
+3. Place the SENSOR ASSEMBLY on a flat surface near the device to be monitored (see “Pre-Installation Checklist” on page <?> for proper placement instructions.)
+4. Double-check that your Z-Wave Controller can still communicate with the Leak Sensor, and pour a small amount of water on the floor to emulate a leak and confirm that the device beeps and reports the event to your Controller.
+
+
+**Installation—With the REMOTE SENSOR PROBE**
+
+Hard to reach areas can be monitored for leaks using the included REMOTE SENSOR PROBE (see “Pre-Installation Checklist” on page <?>.) 
+
+1. Mount the MAIN BODY CRADLE on a wall near the location you wish to monitor, making sure the REMOTE SENSOR PROBE’s cable will reach it comfortably.  You may optionally rest the MAIN BODY CRADLE, unmounted, on a table, shelf, or other surface.
+2. Snap the SENSOR ASSEMBLY into the MAIN BODY CRADLE, making sure the METAL FEET on the SENSOR ASSEMBLY line up with their mates on the MAIN BODY CRADLE.
+3. Plug the REMOTE SENSOR PROBE into the MAIN BODY CRADLE and place the other end of the PROBE in the area to monitor, making sure the METAL FEET are flat on the surface.
+
+### LED Behavior
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Color</th>
+    <th class="tg-yw4l">Behavior</th>
+    <th class="tg-yw4l">This happens when...</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="6">Red</td>
+    <td class="tg-yw4l">Blink 5 times in 5 seconds (slow)</td>
+    <td class="tg-yw4l">…the Leak Sensor was just powered on, but is not yet included in a system.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blink 5 times in 2.5 seconds (medium)</td>
+    <td class="tg-yw4l">…the CONNECT BUTTON is pressed 3 times quickly (regardless of inclusion status.)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blink 5 times in 1.5 seconds (fast)</td>
+    <td class="tg-yw4l">…the Leak Sensor is powered on, and already included in a system.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Stay on for 2+ seconds straight</td>
+    <td class="tg-yw4l">…the CONNECT BUTTON is pressed and held for 10+ seconds, resetting Leak Sensor to factory settings.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks while Beeping</td>
+    <td class="tg-yw4l">…the SENSOR detects a leak.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks once</td>
+    <td class="tg-yw4l">…the CONNECT BUTTON is pushed once.</td>
+  </tr>
+</table>
+
+<span class="caption-dark"> Table 2 - LED Behavior</span>
+
+### Button Behavior
+
+<table class="tg">
+  <tr>
+    <th  class="tg-yw4l">Action</th>
+    <th  class="tg-yw4l">Condition</th>
+    <th  class="tg-yw4l">Result</th>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press  the CONNECT BUTTON for 0.5 second</td>
+    <td  class="tg-yw4l">Leak Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends a wake up notification to its controller, awaits further instructions, and blinks the LED Indicator once</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l" rowspan="3">Push CONNECT BUTTON 3 Times</td>
+    <td  class="tg-yw4l">Leak Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends node info to Group 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Leak Sensor Already Included, and Controller is in Exclusion Mode</td>
+    <td  class="tg-yw4l">Device is excluded from the system and removes the Home ID from its memory</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Leak Sensor Not Yet Included in System, and Controller is in Inclusion Mode</td>
+    <td  class="tg-yw4l">Device enters inclusion mode and includes into whichever network is also in inclusion mode</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press and hold CONNECT BUTTON for 10+ seconds</td>
+    <td  class="tg-yw4l">Leak Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device will be reset to factory settings, and a DEVICE_RESET_LOCALLY command will be sent to Node 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press and Hold for 10+ seconds</td>
+    <td  class="tg-yw4l">Any condition (as long as the device has power)</td>
+    <td  class="tg-yw4l">The device’s memory will erase to factory default settings and any associations, configuration parameters, and other locally saved data will be lost</td>
+  </tr>
+</table>
+
+<span class="caption-dark"> Table 3 - Button Behavior</span>
+
+
+
 ## On/Off Plug
 ## Mouser
 ## Water Main Shut-Off
