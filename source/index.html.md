@@ -3551,6 +3551,647 @@ It is absolutely critical that the axes for both the valve and Water Main Shut-O
 </table>
 <span class="caption-dark"> Table 4 - Compatible Command Classes</span>
 
+## Door/Window Sensor Pro
+
+![Door/Window Sensor Pro](/images/dw-pro-front.png)
+
+### Description & Features
+The Dome Door/Window Sensor is a battery powered security-enabled* Z-Wave Plus magnetic reed switch that can monitor the status of doors, windows, and anything else that opens and closes.  It can also report ambient temperature levels.  The Door/Window Sensor consists of two parts - the “sensor,” and the “magnet.”  The sensor has a “reed switch” inside, which is sensitive to the magnet’s presence when aligned properly and within the defined distance.  When the sensor and magnet are brought together or pulled apart, the sensor will report its open/close status to its Z-Wave controller, and the encrypted wireless communication* ensures that user data remains secure. Because many manufacturers use Z-Wave to communicate, the Door/Window Sensor can interact with different products of different categories.
+
+<!-- The Dome Door/Window Sensor is a Secure* Z-Wave Plus device that monitors the status of doors or windows and also the surrounding temperature.  The Door/Window Sensor has two parts - the “sensor,” and the “magnet.”  The sensor has a “reed switch” inside that detects the magnet's magnetic field when close by.  When the magnet moves in or moves away, the sensor will notify the Z-Wave controller. 
+ -->
+
+
+
+**Key Features**
+
+* Temperature Sensor
+* Up to 220’ range
+* Ten-Year Battery Life
+* Z-Wave Signal Strength Indication
+* 1” Max distance between sensor & magnet
+* Ultra-Narrow (1/4”) Magnet (for Placement Between Door and Casing)
+* Z-Wave Plus Certified
+* S0 Security-Enabled*
+* Monitor doors, windows, medicine cabinets, drawers, garage doors, and many other openings
+
+<aside class="notice">
+*A security-enabled Z-Wave Plus controller is required to use all features of the Door/Window Sensor.
+</aside>
+
+### Specifications
+**Technical Specifications**
+
+Spec | Value
+----:|----
+Radio protocol  | Z-Wave(500 series)
+Power supply  | Single CR14505 3.6V battery  
+Working current | 35mA 
+Standby current | 7uA 
+Radio frequency | 908.4 MHz US
+Range | Up to 150’ depending on environment
+Dimensions (L x W x H)  | Sensor: 2.9” x 0.85” x 0.87” (75 x 21 x 22 mm) <br> Magnet: 1.6” x 0.25” x 0.5” (40 x 6.35 x 12 mm)
+Package Contents   |   User Manual, Sensor, Magnet, Battery, Double-Stick Tape, 2x Screws, 2x Wall Anchors
+
+### Inclusion & Exclusion
+
+> <img src="/images/dw-pro-exploded-view.svg" class="line-art" alt="Door/Window Sensor Exploded View">
+> <span class="caption"> Figure 1 - Door/Window Sensor Exploded View</span>
+> <img src="/images/dw-pro-side-by-side.svg" class="line-art" alt="Main Parts of the Door/Window Sensor">
+> <span class="caption"> Figure 2 - Main Parts of the Door/Window Sensor</span>
+
+**Inclusion - New Installation**
+
+1. For proper inclusion, bring the Door/Window Sensor to the final location where it will be used*.
+2. Follow the instructions for your Z-Wave controller to enter inclusion mode.
+3. Remove the Battery Tab protruding from the Battery Tab Slit.
+4. The device will automatically enter inclusion mode for two minutes and the LED Indicator will alternate between green and red.
+
+Upon successful inclusion the LED Indicator will flash green three times then stop blinking.
+
+**Inclusion - Re-Installation**
+
+1. For proper inclusion, bring the Door/Window Sensorto the final location where it will be used*.
+2. Follow the instructions for your Z-Wave controller to enter inclusion mode.
+3. Remove the Sensor Cover and the LED Indicator will start blinking yellow.
+4. Press the Button quickly 3 times in a row.
+5. The device will enter inclusion mode for two minutes and the LED Indicator will alternate between green and red.
+
+After successful inclusion, the LED Indicator will flash green three times then blink red until the cover is replaced.
+
+<aside class="notice">
+*For non Z-Wave Plus networks, please consult the owner’s manual for your primary controller to determine the best method and location for adding the Leak Sensor to your Z-Wave network.
+</aside>
+
+**Exclusion**
+
+Follow the instructions for your Z-Wave Certified Controller to enter exclusion mode.  When prompted by the controller:
+
+1. Remove the SENSOR COVER and the LED Indicator will start blinking red.
+2. Press the Button quickly 3 times in a row.
+
+The LED Indicator will flash green three times indicating exclusion/disconnection and will then continue flashing red (indicating tamper) until the cover is replaced.
+
+### Factory Reset & Misc. Functions
+
+**Resetting the Door/Window Sensor Pro**
+
+If needed, the Door/Window Sensor Pro can be reset locally by following these steps.  
+
+<aside class="warning">
+Only do this when your Z-Wave controller is disconnected or otherwise unreachable.  Beware that resetting your device will disconnect it from the system
+</aside>
+
+1. Remove the Sensor Cover and confirm that your Door/Window Sensor is powered up.
+2. Wait for 5 seconds.
+3. Move the Magnet and Sensor Base in and out of the closed position 6 times.
+4. The LED Indicator will light up red for two seconds when reset successfully.
+
+The Door/Window Sensor’s memory will be erased to factory settings. 
+
+**Waking Up the Door/Window Sensor Pro**
+
+Because the Mouser is a battery powered device, it wakes up on regular intervals to give battery and other status updates to the controller, as well as to accept configuration settings from the controller.  This helps to extend the battery life.  The device can be forced to wake up to submit these reports or accept new settings immediately by simply pressing and holding the BUTTON for half a second.  The LED INDICATOR will flash once indicating successful wake up.
+
+###Physical Installation###
+
+The Door/Window Sensor can be install with double stick tape or the provided screws.  The device should already be included in your Z-Wave system before continuing further.
+
+**Pre-Installation Checklist**
+
+* The Magnet Assembly and Sensor Assembly should be less than 1-1/4” apart when closed (Figure 3.)
+* Hold the Magnet Assembly and Sensor Assembly in place by hand where you wish to install them, move them in and out of the closed position, and make sure the LED Indicator blinks in response.  This will confirm that the door and frame are spaced correctly to accommodate the sensor.  
+* When moving the Magnet and Sensor in and out of the closed position, a Green followed by another Green or Red LED Indicator corresponds to Excellent or Poor Z-Wave Signal strength respectively.
+* Make sure the Sensor Cover Release Button will be accessible in the final position.
+* The Magnet is small enough (only 1/4” wide) to fit in the groove between the door and the casing.
+* Finally, confirm that you are still within range of your Z-Wave controller.
+
+> <img src="/images/dw-pro-on-door.svg" class="line-art" alt="Placing the Door/Window Sensor on the Door">
+> <span class="caption"> Figure 3 - Placing the Door/Window Sensor on the Door</span>
+
+**Installation Using Double-Stick Tape**
+
+1. Wipe the door and door-frame clean of dust and anything else that will interfere with the tape’s stickiness.
+2. Peel the double-stick tape and adhere the Sensor Assembly to the door surface.
+3. Repeat the process for the Magnet Assembly, making sure the Magnet Assembly, and Sensor Assembly are no more than 1-1/4” apart when closed.  The lines on the sides of the Magnet Assembly, and Sensor Assembly should be in line.
+4. Open and close the door to make sure the sensor works as expected (the LED Indicator blinks) and that the signal reaches your Z-Wave controller.
+
+**Installation Using Screws**
+
+> <img src="/images/dw-pro-w-screws.svg" class="line-art" alt="Installing the Door/Window Sensor With Screws">
+> <span class="caption"> Figure 4 - Installing the Door/Window Sensor With Screws</span>
+
+1. Remove the Sensor Cover and Battery from the Sensor Base and the Magnet Cover from the Magnet Base.
+2. Hold the Sensor Base in place and drive the included screws through the screw holes into the door.
+3. Repeat the process for the Magnet Assembly, making sure the Magnet Assembly, and Sensor Assembly are no more than 1-1/4” apart when the door is closed.  The lines on the sides of the MAGNET and SENSOR should be in line.
+4. Replace the Battery, Sensor Cover, and Magnet Cover.
+5. Open and close the door to make sure the sensor works as expected (the LED Indicator blinks) and that the signal reaches your Z-Wave controller.
+
+### LED Behavior
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Color</th>
+    <th class="tg-yw4l">Behavior</th>
+    <th class="tg-yw4l">This happens when...</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">Green</td>
+    <td class="tg-yw4l">Blinks Twice Within 5 Seconds</td>
+    <td class="tg-yw4l">…the sensor Detects the Magnet (door) moving, and the Z-Wave signal reached the controller. <!-- …the sensor Detects the Magnet moving away or getting close (as the Door is opened or closed) and Z-Wave signal strength is high. --></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks 3 times quickly</td>
+    <td class="tg-yw4l">…the device is successfully included into the system.</td>
+  </tr>
+
+  <tr>
+    <td class="tg-yw4l" rowspan="3">Red</td>
+    <td class="tg-yw4l">Stays on for 2 seconds</td>
+    <td class="tg-yw4l">…the device is reset to factory settings.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks 3 Times quickly</td>
+    <td class="tg-yw4l">… the Button is pressed 3 times quickly and the device is excluded from the network.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Blinks indefinitely</td>
+    <td class="tg-yw4l">…the Sensor Cover is removed and the device is already included in a system.</td>
+  </tr>
+
+  <tr>
+    <td class="tg-yw4l">Yellow (Green + Red)</td>
+    <td class="tg-yw4l">Blinks Indefinitely</td>
+    <td class="tg-yw4l">...the Sensor Cover is removed and the device is not yet included in a system.</td>
+  </tr>
+
+  <tr>
+    <td class="tg-yw4l" rowspan="2">Red &amp; Green Alternating</td>
+    <td class="tg-yw4l">Two Flashes (Green-Red) Within 5 Seconds</td>
+    <td class="tg-yw4l">…the sensor Detects the Magnet moving away or getting close (as the Door is opened or closed) and the Z-Wave signal was not received.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Flashing in alternating colors</td>
+    <td class="tg-yw4l">…the Door/Window Sensor is in inclusion mode.  It will continue blinking and remain in inclusion mode for up to two minutes, until it is included in a system.</td>
+  </tr>
+
+</table>
+
+<span class="caption-dark"> Table 2 - LED Behavior</span>
+
+### Button Behavior
+
+<table class="tg">
+  <tr>
+    <th  class="tg-yw4l">Action</th>
+    <th  class="tg-yw4l">Condition</th>
+    <th  class="tg-yw4l">Result</th>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l" rowspan="2">Open the Cover</td>
+    <td  class="tg-yw4l">Door/Window Sensor Not Yet Included in System</td>
+    <td  class="tg-yw4l">LED Indicator blinks yellow (red + green) until the Sensor Cover is replaced</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends a tamper notification to its controller, and the LED Indicator blinks red until the Sensor Cover is replaced</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l" rowspan="3">Push CONNECT BUTTON 3 Times</td>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device sends node info to Group 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included, and Controller is in Exclusion Mode</td>
+    <td  class="tg-yw4l">Device is excluded from the system and removes the Home ID from its memory</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Door/Window Sensor Not Yet Included in System, and Controller is in Inclusion Mode</td>
+    <td  class="tg-yw4l">Device enters inclusion mode and includes into whichever network is also in inclusion mode</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l" rowspan="2">Move the Magnet and Sensor In and Out of the Closed Position 6 Times with Cover Removed</td>
+    <td  class="tg-yw4l">Door/Window Sensor Already Included in System</td>
+    <td  class="tg-yw4l">Device will be reset to factory settings, and a DEVICE_RESET_LOCALLY command will be sent to Group 1</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Any condition (as long as the device has power)</td>
+    <td  class="tg-yw4l">The device’s memory will erase to factory default settings and any associations, configuration parameters, and other locally saved data will be lost</td>
+  </tr>
+  <tr>
+    <td  class="tg-yw4l">Press the Button Once</td>
+    <td  class="tg-yw4l">Door/Window Sensor Is Already Included in System</td>
+    <td  class="tg-yw4l">Device sends a wake up notification to Node 1.</td>
+  </tr>
+</table>
+
+<span class="caption-dark"> Table 3 - Button Behavior</span>
+
+### Compatible Command Classes
+
+<table class="tg"> 
+  <tr>
+    <th class="tg-yw42">Command Class</th>
+    <th class="tg-yw43">Notes</th>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Device Reset Locally V1 (5A)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Powerlevel V1 (73)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Battery V1(80)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Association Group Information V1 (59)</td>
+    <td class="tg-yw43">-</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Z-Wave Plus Info V2 (5E)</td>
+    <td class="tg-yw43">
+
+      <strong>Returned Value: 01 06 00 0C 06 0C 06</strong></center>
+<br>
+    <table>
+      <tr>
+        <td  class="tg-yw42">Z-Wave Plus Version</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Role Type</td>
+        <td>06 <span class="subnote">(Slave Sleeping Reporting)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Node Type</td>
+        <td>00 <span class="subnote">(Z-Wave Plus Node)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Installer Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">User Icon Type</td>
+        <td>0C 06 <span class="subnote">(Access Control Alarm)</span></td>
+      </tr>
+    </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Version V2 (86)</td>
+    <td class="tg-yw43">
+
+      <center><strong>Returned Value: 03 04 21 01 11 1E 00</strong></center>
+<br>
+    <table>
+      <tr>
+        <td  class="tg-yw42">Z-Wave Library Type</td>
+        <td>03 <span class="subnote">(Enhanced Slave)</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Protocol Version</td>
+        <td>04 21</span></td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Protocol Sub-Version</td>
+        <td>01 11</td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Application Version</td>
+        <td>1E</td>
+      </tr>
+      <tr>
+        <td  class="tg-yw42">Application Sub-Version</td>
+        <td>00</td>
+      </tr>
+    </table>
+
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Manufacturer Specific V2 (72)</td>
+    <td class="tg-yw43">
+      <center><strong>Returned Value: 02 1F 00 03 02 01</strong></center>
+      <br>
+      <table>
+        <tr>
+          <td  class="tg-yw42">Manufacturer ID</td>
+          <td>02 1F</td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Product Type</td>
+          <td>00 03</td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Product ID</td>
+          <td>02 01</td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Multilevel Sensor (31)</td>
+    <td class="tg-yw43">
+      The Door/Window Sensor monitors ambient temperature levels and reports this data to the main controller using the Multilevel Sensor command class if Configuration Parameter 05 is set to 01 (this is off by default.)  Configuration Parameter 06 is used to “offset” the reported value (add or deduct a static number from the reported value) and Configuration Parameter 07 switches between Celsius and Fahrenheit.  
+      <br>
+      <center><strong>Returned Value: 01 XX XX</strong></center>
+      <br>
+      <table>
+        <tr>
+          <td  class="tg-yw42">Sensor Type</td>
+          <td>01 <span class="subnote">(tEMPERATURE)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Precision/Scale/Size (Celsius)</td>
+          <td>01 <span class="subnote">(Precision = 000; Scale = 00; Size = 001)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Precision/Scale/Size (Fahrenheit)</td>
+          <td>09 <span class="subnote">(Precision = 000; Scale = 01; Size = 001)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Sensor Data</td>
+          <td>00 ~ FF <span class="subnote">(-125 ~ 125 in Degrees Fahrenheit or Celsius)</span></td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td class="tg-yw42">Binary Sensor (30)</td>
+    <td class="tg-yw43">
+      If Configuration Parameter 4 is set to 01, the Door/Window Sensor sends a Binary Sensor Report when opened or closed and also when tamper events are detected.  See below for the SENSOR_BINARY_REPORT parameters sent:
+      <br>
+      <table>
+        <tr>
+          <td  class="tg-yw42">Sensor Type (Door Open/Close)</td>
+          <td>0A <span class="subnote">(Door/Window)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Door Open Value</td>
+          <td>FF</td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">door Closed Value</td>
+          <td>00</td>
+        </tr>
+              <tr>
+          <td  class="tg-yw42">Sensor Type (Tamper)</td>
+          <td>08 <span class="subnote">(Tamper)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Tamper Detected Value</td>
+          <td>FF</td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Tamper Cleared Value</td>
+          <td>00</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Association V2 (85)</td>
+    <td class="tg-yw43">
+      <p>
+        <strong>Group 1</strong>
+        <br>
+        Group 1 is the “Lifeline” group, which can hold five members, typically including the main Z-Wave controller.  The Door/Window Sensor sends this group a Notification Report or a Binary Sensor Report when it is opened or closed (see Configuration Parameter 4.)  It also sends this group a multilevel sensor report to report the temperature and a Battery Report in response to Battery Get commands. 
+      </p>
+      <p>
+        <strong>Group 2</strong>
+        <br>
+        Group 2 supports up to 5 members and the Door/Window Sensor sends a Basic Set command to this group (or the Control Group) to directly trigger devices (like a light, chime, etc.) when the tamper switch either opens or closes. The value of the Basic Set command (e.g. brightness of the lamp) is configured using configuration parameter 08.
+      </p>
+      <p>
+        <strong>Group 3</strong>
+        <br>
+        Group 3 supports up to 5 members and the Door/Window Sensor sends it a NOTIFICATION_REPORT or SENSOR_BINARY_REPORT when the tamper switch either opens or closes.      
+      </p>
+      <p>
+        <strong>Group 4</strong>
+        <br>
+        Group 4 supports up to 5 members and the Door/Window Sensor sends a Basic Set command to this group to directly trigger devices (like a light, chime, etc.) when the sensor detects the door/window opening. The value of the Basic Set command (e.g. brightness of the lamp) is configured using configuration parameter 09.  
+      </p>
+      <p>
+        <strong>Group 5</strong>
+        <br>
+        Group 5 supports up to 5 members and the Door/Window Sensor sends it a NOTIFICATION_REPORT or SENSOR_BINARY_REPORT when the sensor detects the door/window opening.   
+      </p>
+      <p>
+        <strong>Group 6</strong>
+        <br>
+        Group 6 supports up to 5 members and the Door/Window Sensor sends a Basic Set command to this group to directly trigger devices (like a light, chime, etc.) when the sensor detects the door/window closing. The value of the Basic Set command (e.g. brightness of the lamp) is configured using configuration parameter 0A.   
+      </p>
+      <p>
+        <strong>Group 7</strong>
+        <br>
+        Group 7 supports up to 5 members and the Door/Window Sensor sends it a NOTIFICATION_REPORT or SENSOR_BINARY_REPORT when the sensor detects the door/window closing.  
+      </p>    
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Wake Up V2 (84)</td>
+    <td class="tg-yw43">The wake-up interval is set in seconds, and is 43,200 seconds (12 hours) by default.  The wake-up interval can be set to any value from 300s (5 minutes) to 16,777,200s (about 190 days) in 60-second increments.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Notification V4 (71)</td>
+    <td class="tg-yw43">
+      If Configuration Parameter 4 is set to 00, the Door/Window Sensor sends a Notification Report to the main controller whenever the door is opened and closed and also when tamper events are detected.  Two different Notification Types are used to achieve this.
+      <br>
+      <center><strong>Returned Value: 00 00 00 FF XX XX 00 00</strong></center>
+      <br>
+       <table>
+        <tr>
+          <td  class="tg-yw42">V1 Alarm Type</td>
+          <td>00 <span class="subnote">(Unsupported)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">V1 Alarm Level</td>
+          <td>00 <span class="subnote">(Unsupported)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Reserved</td>
+          <td>00 <span class="subnote">(Reserved)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Notification Status</td>
+          <td>FF <span class="subnote">(Unsolicited Reporting is Enabled)</span></td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Notification Type (Door)<br>Notification Type (Tamper)</td>
+          <td>06 <span class="subnote">(Access Control)</span><br>07 <span class="subnote">(Home Security)</span></td>
+        </tr>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Door Open Event <br>Door Closed Event <br>Tamper Detected Event <br>Tamper Cleared Event</td>
+          <td>16 <span class="subnote">(Window/Door is Open)</span> <br> 17 <span class="subnote">(Window/Door is Closed)</span><br>03 <span class="subnote">(Tampering, Product Covering Removed)</span> <br> 00 <span class="subnote">(Event Inactive)</span></td>
+        </tr>
+
+        <tr>
+          <td  class="tg-yw42">Sequence/Reserved/Event Parameters Length</td>
+          <td>00</td>
+        </tr>
+        <tr>
+          <td  class="tg-yw42">Notification Event Parameters</td>
+          <td>00 <span class="subnote">(No Event Parameters)</span></td>
+        </tr>
+        
+      </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw42">Configuration V1(70)</td>
+    <td class="tg-yw43">See “Configuration” Command Class Parameters”.</td>
+  </tr>
+  
+</table>
+<span class="caption-dark"> Table 4 - Compatible Command Classes</span>
+
+### “Configuration” Command Class Parameters
+<p>Configuration parameters are sent using a standard syntax to ensure interoperability between all manufacturers’ products.  All values are represented using the hexadecimal number system.  
+<br>Typical syntax is as shown below. Note that the value sent must be the exact size, in bytes, as accepted by the setting.  The “extra” spaces should be filled with zeros (see the “value” column below.) </p>
+<p>Example Configuration Parameter: 02 02 00 0A
+  <br>
+  <table>
+    <tr>
+      <td  class="tg-yw4l">Param #</td>
+      <td  class="tg-yw4l">Size</td>
+      <td  class="tg-yw4l">Value</td>
+    </tr>
+    <tr>
+      <td  class="tg-yw41">02<br><span class="subnote">(Param #2)</span></td>
+      <td  class="tg-yw4l">02<br><span class="subnote">(2 Bytes)</span></td>
+      <td  class="tg-yw4l">00 0A<br><span class="subnote">(Value)</span></td>
+    </tr>
+  </table>
+</p>
+
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Param #</th>
+    <th class="tg-yw4l">Size</th>
+    <th class="tg-yw4l">Name</th>
+    <th class="tg-yw4l">Available Values</th>
+    <th class="tg-yw4l">Default Value</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">01</td>
+    <td class="tg-yw4l" colspan="4">This parameter enables or disables the LED Indicator flashing to indicate opening and closing events.  The Door/Window Sensor will always flash the LED Indicator for inclusion, exclusion, tamper, and other system events.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Enable/Disable LED Indicator</td>
+    <td class="tg-yw4l">00 <span class="subnote">(Open/Close LED Indicator Disabled)</span><br>01 <span class="subnote">(Open/Close LED Indicator Enabled)</span></td>
+    <td class="tg-yw4l">01 <br> <span class="subnote"> (Open/Close LED Indicator Enabled) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">02</td>
+    <td class="tg-yw4l" colspan="4">This parameter switches the Notification or Binary Sensor report sent when the door opens or closes.  If this parameter is set to 01, the Door/Window Sensor will report “closed” instead of “open”when the Magnet and Sensor are pulled apart.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Configure Open/Close Reports Sent</td>
+    <td class="tg-yw4l">00 <span class="subnote">(Reports Closed when Magnet is close)</span><br>01 <span class="subnote">(Reports Open when Magnet is close)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (Reports Closed when Magnet is close) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">03</td>
+    <td class="tg-yw4l" colspan="4">The Door/Window Sensor sends encrypted commands by default to all Association Groups.  This Configuration Parameter allows certain groups to be sent unencrypted commands instead.  Each value listed below can be combined, meaning setting this Parameter to 03 will encrypt the second and third association groups.  If the main controller accepts encrypted commands, the Door/Window Sensor will automatically encrypt all commands to Group 1.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Turn On/Off Encryption</td>
+    <td class="tg-yw4l">00 <span class="subnote">(No Group Receives Encrypted Commands)</span><br>01 <span class="subnote">(Group 2 Receives Encrypted Commands)</span><br>02 <span class="subnote">(Group 3 Receives Encrypted Commands)</span><br>04 <span class="subnote">(Group 4 Receives Encrypted Commands)</span><br>08 <span class="subnote">(Group 5 Receives Encrypted Commands)</span><br>10 <span class="subnote">(Group 6 Receives Encrypted Commands)</span><br>20 <span class="subnote">(Group 7 Receives Encrypted Commands)</span><br></td>
+    <td class="tg-yw4l">3F <br> <span class="subnote"> (All Groups Receive Encrypted Commands) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">04</td>
+    <td class="tg-yw4l" colspan="4">By default, the Door/Window Sensor uses the Notification command class to communicate open/close and tamper events.  If this Parameter is set to 1, the device will instead use the Binary Sensor command class.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Switch Between Notification and Binary Sensor Command Classes</td>
+    <td class="tg-yw4l">00 <span class="subnote">(Notification Command Class is Used)</span><br>01 <span class="subnote">(Binary Sensor Command Class is Used)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (Notification Command Class is Used) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">05</td>
+    <td class="tg-yw4l" colspan="4">The Door/Window Sensor can also monitor and report ambient temperature conditions.  However, temperature sensing functionality is disabled by default to save battery life, and this configuration parameter is used to enable or disable this feature.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Enable/Disable Temperature Sensor</td>
+    <td class="tg-yw4l">00 <span class="subnote">(Temperature Sensor Disabled)</span><br>01 <span class="subnote">(Temperature Sensor Enabled)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (Temperature Sensor Disabled) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">06</td>
+    <td class="tg-yw4l" colspan="4">This Configuration Parameter can offset the temperature value reported by ± 125 degrees to compensate for temperature variances in a room - for example, the temperature near the ceiling in a room is significantly higher than the average temperature of the same room.  This Parameter accepts a signed 8-bit value with an absolute value of up to 125, and its units are Dependant on Configuration Parameter 07</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Temperature offset</td>
+    <td class="tg-yw4l">00 ~ 7D <span class="subnote">(0°~125°)</span><br>83 ~ FF <span class="subnote">(-125° ~ -1°)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (0° Offset) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">07</td>
+    <td class="tg-yw4l" colspan="4">The Door/Window Sensor can report temperature values in either Celsius or Fahrenheit, and this parameter allows the user to decide which unit is used.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Temperature Units</td>
+    <td class="tg-yw4l">00 <span class="subnote">(Temperature Reported in Fahrenheit)</span><br>01 <span class="subnote">(Temperature Reported in Celsius)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (Temperature Reported in Fahrenheit) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">08</td>
+    <td class="tg-yw4l" colspan="4">This parameter sets the value sent by the Basic Set command to Association Group 2 (for more information, see "Association Group Info”.)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Basic Set Value (Group 2)</td>
+    <td class="tg-yw4l">00 <span class="subnote">(0/Turn Off Device)</span><br>01 ~ 63 <span class="subnote">(0-99)</span><br>FF <span class="subnote">(-1/Turn On Device)</span></td>
+    <td class="tg-yw4l">FF <br> <span class="subnote"> (-1/Turn On Device) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">09</td>
+    <td class="tg-yw4l" colspan="4">This parameter sets the value sent by the Basic Set command to Association Group 4 (for more information, see “Association Group Info".)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Basic Set Value (Group 4)</td>
+    <td class="tg-yw4l">00 <span class="subnote">(0/Turn Off Device)</span><br>01 ~ 63 <span class="subnote">(0-99)</span><br>FF <span class="subnote">(-1/Turn On Device)</span></td>
+    <td class="tg-yw4l">FF <br> <span class="subnote"> (-1/Turn On Device) </span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">0A</td>
+    <td class="tg-yw4l" colspan="4">This parameter sets the value sent by the Basic Set command to Association Group 6 (for more information, see “Association Group Info".)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">01</td>
+    <td class="tg-yw4l">Basic Set Value (Group 6)</td>
+    <td class="tg-yw4l">00 <span class="subnote">(0/Turn Off Device)</span><br>01 ~ 63 <span class="subnote">(0-99)</span><br>FF <span class="subnote">(-1/Turn On Device)</span></td>
+    <td class="tg-yw4l">00 <br> <span class="subnote"> (0/Turn Off Device) </span></td>
+  </tr>
+  
+
+</table>
+
+<span class="caption-dark"> Table 5 - "Configuration" Command Class Parameters</span>
+
+
+
 
 # Hubs
 <!-- ## SmartThings
