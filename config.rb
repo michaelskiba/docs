@@ -10,10 +10,10 @@ set :markdown,
     no_intra_emphasis: true
 
 # Assets
-set :css_dir, 'build/stylesheets'
-set :js_dir, 'build/javascripts'
-set :images_dir, 'build/images'
-set :fonts_dir, 'build/fonts'
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+set :fonts_dir, 'fonts'
 
 set :build_dir, "#{File.dirname(__FILE__)}/build"
 
@@ -36,9 +36,9 @@ set :relative_links, true
 configure :build do
   # If you're having trouble with Middleman hanging, commenting
   # out the following two lines has been known to help
-  activate :minify_css
-  activate :minify_javascript
-  # activate :relative_assets
+  # activate :minify_css
+  # activate :minify_javascript
+  activate :relative_assets
   # activate :asset_hash
   # activate :gzip
 end
