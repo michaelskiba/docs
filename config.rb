@@ -15,6 +15,8 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
+set :build_dir, "#{File.dirname(__FILE__)}/build"
+
 # Activate the syntax highlighter
 activate :syntax
 
