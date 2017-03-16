@@ -10,10 +10,10 @@ set :markdown,
     no_intra_emphasis: true
 
 # Assets
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
-set :fonts_dir, 'fonts'
+set :css_dir, 'build/stylesheets'
+set :js_dir, 'build/javascripts'
+set :images_dir, 'build/images'
+set :fonts_dir, 'build/fonts'
 
 set :build_dir, "#{File.dirname(__FILE__)}/build"
 
