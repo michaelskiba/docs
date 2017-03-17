@@ -1,6 +1,6 @@
 # Dome Devices
-## Door/Window Sensor
 
+## Door/Window Sensor
 ![Dome Door/Window Sensor](/images/dw-3-4ths.png)
 
 
